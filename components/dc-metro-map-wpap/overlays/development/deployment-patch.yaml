@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-wpap
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/release-e2e-bundle-tenant/appstudio/dc-metro-map-wpap@sha256:742106e043b6d1aa6e7801a78b9803fd0ff82bcd4882e27b70be61eb47df82ab
+        name: my-nodejs
+        resources: {}
+status: {}
