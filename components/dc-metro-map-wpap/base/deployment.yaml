@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-wpap
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-bundle-tenant/appstudio/dc-metro-map-wpap@sha256:742106e043b6d1aa6e7801a78b9803fd0ff82bcd4882e27b70be61eb47df82ab
         name: my-nodejs
         ports:
         - containerPort: 3001
